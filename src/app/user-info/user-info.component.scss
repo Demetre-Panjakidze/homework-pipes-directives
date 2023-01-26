@@ -1,0 +1,29 @@
+.load-btn {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+
+  &:is(:hover, :active) {
+    opacity: 0.5;
+  }
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0 0;
+
+  .user-info {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+  }
+}

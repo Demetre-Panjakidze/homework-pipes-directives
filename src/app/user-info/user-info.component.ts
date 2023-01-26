@@ -8,7 +8,5 @@ import json from '../../assets/data/data.json';
 })
 export class UserInfoComponent implements OnInit {
   data = json;
-  ngOnInit() {
-    console.log(this.data);
-  }
+  ngOnInit() {}
 }
