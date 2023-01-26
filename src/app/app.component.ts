@@ -6,7 +6,4 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   ngOnInit() {}
-  range(n: number) {
-    return new Array(n);
-  }
 }
