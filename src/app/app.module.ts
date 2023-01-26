@@ -9,7 +9,7 @@ import { UserInfoComponent } from './user-info/user-info.component';
 import { StatusDirective } from './user-info/status.directive';
 import { InfoComponent } from './user-info/info/info.component';
 import { StatusBtnDirective } from './user-info/info/status-btn.directive';
-import { BirthdayPipe } from './pipes/birthday-pipe.pipe';
+import { BirthdayPipe } from './pipes/birthday.pipe';
 
 @NgModule({
   declarations: [

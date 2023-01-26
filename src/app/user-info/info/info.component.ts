@@ -1,6 +1,6 @@
 import { Input, Component, OnInit } from '@angular/core';
 import { User } from '../../interfaces/user.interface';
-import { BirthdayPipe } from 'src/app/pipes/birthday-pipe.pipe';
+import { BirthdayPipe } from 'src/app/pipes/birthday.pipe';
 
 @Component({
   selector: 'app-info',
