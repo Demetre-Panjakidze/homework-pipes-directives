@@ -2,29 +2,29 @@
   "users": [
     {
       "id": 1,
-      "username": "Giorgi",
-      "firstName": "Giorgi",
-      "lastName": "Bazerashvili",
-      "aboutMe": "About Giorgi",
-      "age": 26,
+      "username": "Dwight Kurt Schrute",
+      "firstName": "Dwight",
+      "lastName": "Schrute",
+      "aboutMe": "About Dwight",
+      "birthDate": "1970-01-20",
       "status": "Deleted"
     },
     {
       "id": 2,
-      "username": "Giorgi2",
-      "firstName": "Giorgi2",
-      "lastName": "Bazerashvili2",
-      "aboutMe": "About Giorgi2",
-      "age": 26,
+      "username": "Michael Gary Scott",
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "aboutMe": "About Michael",
+      "birthDate": "1965-03-15",
       "status": "Active"
     },
     {
       "id": 3,
-      "username": "Giorgi3",
-      "firstName": "Giorgi3",
-      "lastName": "Bazerashvili3",
-      "aboutMe": "About Giorgi3",
-      "age": 26,
+      "username": "Stanley Hudson",
+      "firstName": "Stanley",
+      "lastName": "Hudson",
+      "aboutMe": "About Stanley",
+      "birthDate": "1951-07-14",
       "status": "Inactive"
     }
   ]
