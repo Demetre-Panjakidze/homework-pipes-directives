@@ -10,6 +10,7 @@ import { StatusDirective } from './user-info/status.directive';
 import { InfoComponent } from './user-info/info/info.component';
 import { StatusBtnDirective } from './user-info/info/status-btn.directive';
 import { BirthdayPipe } from './pipes/birthday.pipe';
+import { UsernamePipe } from './pipes/usernames.pipe';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { BirthdayPipe } from './pipes/birthday.pipe';
     InfoComponent,
     StatusBtnDirective,
     BirthdayPipe,
+    UsernamePipe,
   ],
   imports: [BrowserModule],
   providers: [],
