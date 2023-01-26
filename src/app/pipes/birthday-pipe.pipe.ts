@@ -7,8 +7,6 @@ export class BirthdayPipe implements PipeTransform {
   transform(value: string): number {
     const birthdate = new Date(value);
     const today = new Date();
-    return Math.floor(
-      (today.getTime() - birthdate.getTime()) / 1000 / 60 / 60 / 24 / 365.25
-    );
+    return Math.floor((today.getTime() - birthdate.getTime()) / 31557600000);
   }
 }
