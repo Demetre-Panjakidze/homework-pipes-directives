@@ -4,6 +4,6 @@ export interface User {
   firstName: string;
   lastName: string;
   aboutMe: string;
-  age: number;
+  birthData: string;
   status: 'Deleted' | 'Inactive' | 'Active';
 }
