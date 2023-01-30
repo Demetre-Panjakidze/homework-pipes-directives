@@ -10,7 +10,6 @@ export class UsernamePipe implements PipeTransform {
     this.data.users.forEach((user) => {
       usernameArr.push(user.username);
     });
-    console.log(usernameArr);
     return usernameArr.join(', ');
   }
 }
